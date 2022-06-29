@@ -8,17 +8,25 @@
     <style>
 
         body {
-            height: 100%vh;
+           height: 100%vh;
+           /*
             background-color: black;
-            background-repeat: repeat-y;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /*shorthand (utilzado para simplicar o código e não precisar usar a mesma tag várias vezes) - background > color > image > position > repeat > [size] > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
             padding: 10px;
-            width: 400px;
+            max-width: 400px;
             margin: auto;
             border: 1px solid palevioletred;
             border-radius: 15px;
