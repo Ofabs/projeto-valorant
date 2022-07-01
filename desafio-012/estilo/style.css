@@ -22,10 +22,12 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    
 }
 
 header > h1 {
     padding: 50px;
+    font-size: 10vh;
     font-variant: small-caps;
     font-family: var(--fonte2);
 }
